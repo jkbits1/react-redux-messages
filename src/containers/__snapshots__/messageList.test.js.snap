@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with messages and members 1`] = `
+<div
+  style={
+    Object {
+      "width": 880,
+    }
+  }
+>
+  <ul>
+    <Message
+      key="cd445e6d-e514-424f-ba8f-16ec842002c6"
+      messageDetails={
+        Object {
+          "id": "cd445e6d-e514-424f-ba8f-16ec842002c6",
+          "message": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+          "readableDate": "9th February 2017",
+          "readableTime": "4:02:00 AM",
+          "timestamp": "2017-02-09T04:27:38Z",
+          "userId": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+        }
+      }
+      messageMember={
+        Object {
+          "avatar": "http://dummyimage.com/100x100.jpg/5fa2dd/ffffff",
+          "email": "arosec@bbb.org",
+          "firstName": "Albert",
+          "id": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+          "ip": "20.79.231.223",
+          "lastName": "Rose",
+        }
+      }
+    />
+    <Message
+      key="b03569ae-ccbf-4975-8040-4daba638b407"
+      messageDetails={
+        Object {
+          "id": "b03569ae-ccbf-4975-8040-4daba638b407",
+          "message": "Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
+          "readableDate": "9th November 2016",
+          "readableTime": "5:11:00 AM",
+          "timestamp": "2016-11-09T05:04:58Z",
+          "userId": "16373df5-da0a-4074-8295-f916b94269f4",
+        }
+      }
+      messageMember={
+        Object {
+          "avatar": "http://dummyimage.com/100x100.bmp/5fa2dd/ffffff",
+          "email": "lowensm@earthlink.net",
+          "firstName": "Larry",
+          "id": "16373df5-da0a-4074-8295-f916b94269f4",
+          "ip": "168.43.167.194",
+          "lastName": "Owens",
+        }
+      }
+    />
+  </ul>
+</div>
+`;
+
+exports[`renders correctly with messages and no members 1`] = `
+<div
+  style={
+    Object {
+      "width": 880,
+    }
+  }
+>
+  <ul>
+    <Message
+      key="cd445e6d-e514-424f-ba8f-16ec842002c6"
+      messageDetails={
+        Object {
+          "id": "cd445e6d-e514-424f-ba8f-16ec842002c6",
+          "message": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
+          "readableDate": "9th February 2017",
+          "readableTime": "4:02:00 AM",
+          "timestamp": "2017-02-09T04:27:38Z",
+          "userId": "fe27b760-a915-475c-80bb-7cdf14cc6ef3",
+        }
+      }
+      messageMember={
+        Object {
+          "avatar": "",
+          "email": "Member info not yet loaded",
+        }
+      }
+    />
+    <Message
+      key="b03569ae-ccbf-4975-8040-4daba638b407"
+      messageDetails={
+        Object {
+          "id": "b03569ae-ccbf-4975-8040-4daba638b407",
+          "message": "Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
+          "readableDate": "9th November 2016",
+          "readableTime": "5:11:00 AM",
+          "timestamp": "2016-11-09T05:04:58Z",
+          "userId": "16373df5-da0a-4074-8295-f916b94269f4",
+        }
+      }
+      messageMember={
+        Object {
+          "avatar": "",
+          "email": "Member info not yet loaded",
+        }
+      }
+    />
+  </ul>
+</div>
+`;
+
+exports[`renders correctly with no messages or members 1`] = `""`;

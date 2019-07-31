@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly with message and default member 1`] = `
+<li
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "border": "solid 1px black",
+      "display": "flex",
+      "justifyContent": "flex-start",
+      "listStyle": "none",
+      "padding": 10,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "width": 280,
+      }
+    }
+  >
+    4:02:00 AM
+    <span
+      style={
+        Object {
+          "paddingLeft": 15,
+        }
+      }
+    >
+      9th February 2017
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "overflowWrap": "normal",
+        "paddingLeft": 10,
+        "width": 120,
+      }
+    }
+  >
+    No image available
+  </div>
+  <div
+    style={
+      Object {
+        "width": 170,
+      }
+    }
+  >
+     
+    Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+  </div>
+</li>
+`;
+
+exports[`renders correctly with message and member 1`] = `
+<li
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "border": "solid 1px black",
+      "display": "flex",
+      "justifyContent": "flex-start",
+      "listStyle": "none",
+      "padding": 10,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "width": 280,
+      }
+    }
+  >
+    4:02:00 AM
+    <span
+      style={
+        Object {
+          "paddingLeft": 15,
+        }
+      }
+    >
+      9th February 2017
+    </span>
+  </div>
+  <div
+    style={
+      Object {
+        "width": 120,
+      }
+    }
+  >
+    <img
+      alt="user avatar"
+      src="http://dummyimage.com/100x100.jpg/5fa2dd/ffffff"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "width": 170,
+      }
+    }
+  >
+     
+    Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+  </div>
+</li>
+`;
